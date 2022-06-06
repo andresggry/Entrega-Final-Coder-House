@@ -1,0 +1,378 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1348px;
+    height: 630px;
+    background-color: rgba(135, 145, 158, 0.418);
+}
+
+.header{    
+    z-index: 100;
+    position: fixed;
+    padding-top: 450px;
+    padding-left: 20px;
+    margin-left: 0px;
+    color: rgb(14, 19, 31);
+    font-size: 18px;
+    font-family: "Overlock SC";
+}
+
+header p{
+    color: rgb(14, 19, 31);
+    font-size: 35px;
+    font-family: "Overlock SC";
+    text-align: center;
+    margin-top: -5px;
+}
+
+.fa-brands{
+    font-size: 23px;
+    color: rgb(14, 19, 31);
+    padding-top: 5px;
+    padding-left: 20px;
+    width: 45px;
+}
+
+.fa-solid{
+    font-size: 23px;
+    color: rgb(14, 19, 31);
+    padding-top: 5px;
+    padding-left: 20px;
+    width: 45px;
+}
+
+.navbar{
+    z-index: 100;
+    border-radius: 3px;
+    padding-top: 0px;
+}
+
+.redes{
+    padding-top: -50px;
+    margin-left: 20px;
+    margin-right: 5px;
+    float: center;
+    height: 21px;
+    width: 21px;
+}
+
+#Logo{
+    padding-top: 40px;
+    padding-left: 40px;
+    height: 110px;
+    width: 150px;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+nav{
+    text-decoration: none;
+    padding-top: 200px;
+    letter-spacing: 8px;
+    color: rgb(197, 195, 195);
+    margin-top: 20px;
+    margin-left: 0px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    font-family: "Palanquin";
+    text-align: center;
+    position: fixed;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(197, 195, 195);
+}
+
+h1{
+    color: rgb(14, 19, 31);
+    margin-top: 10px;
+    font-size: 90px;
+    font-family: "Overlock SC";
+    text-align: center;
+}
+
+h2{
+    color: rgb(14, 19, 31);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h3{
+    color: rgb(14, 19, 31);
+    font-size: 35px;
+    font-family: "Palanquin";
+    text-align: center;
+}
+
+h4{
+    color: rgb(14, 19, 31);
+    font-size: 23px;
+    font-family: "Palanquin";
+    text-align: left;
+}
+
+h5{
+    color: rgb(14, 19, 31);
+    font-size: 25px;
+    font-family: "Palanquin";
+    text-align: left;
+}
+
+p{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Palanquin";
+    text-align: center;
+}
+
+label{
+    font-size: 17px;
+    font-family: "Palanquin";
+    text-align: center;
+}
+
+fieldset{
+    border: none;
+    margin-top: -50px;
+}
+
+#carouselExampleIndicators{
+    width: 1348px; 
+    height: 580px;
+}
+
+.d-block{
+    width: 1348px; 
+    height: 613px;
+}
+
+.carousel-control-prev{
+    color: black;
+}
+
+.slider{
+    overflow: hidden;
+    float: right;
+    width: 1377px; height: 650px;
+}
+.slider ul{
+    display: flex;
+    width: 500px; height: 650px;
+    animation: cambio 20s infinite alternate;
+    list-style: none;
+}
+.imagenes-home{
+    float: right;
+    margin-top: -20px;
+    padding-left: 0px;
+    width: 1377px; height: 630px;
+}
+@keyframes cambio {
+    0% {margin-left: 0;}
+    5% {margin-left: 0;}
+
+    15% {margin-left: -100%;}
+    20% {margin-left: -100%;}
+
+    30%{margin-left: -200%;}
+    45%{margin-left: -200%;}
+
+    55%{margin-left: -300%;}
+    65%{margin-left: -300%;}
+
+    75%{margin-left: -400%;}
+    85%{margin-left: -400%;}
+
+    90%{margin-left: -500%;}
+    100%{margin-left: -500%;}
+}
+
+.Contacto{
+    padding-top: 100px;
+    padding-left: 250px;
+    float: center;
+    height: 644px; width: 1000px; 
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.footerhome{
+    color: rgb(14, 19, 31);
+    float: right;
+    margin-top: -85px;
+    margin-right: 300px;
+    font-size: 17px;
+    font-family: "Palanquin";
+}
+
+.footerobras{
+    color: rgb(14, 19, 31);
+    float: right;
+    margin-top: 32px;
+    margin-right: 298px;
+    font-size: 17px;
+    font-family: "Palanquin"; 
+}
+
+#ImagenHome{
+    float: right;
+    width: 100%; height: 615px;
+}
+
+.imagenes-par{
+    float: right;
+    padding-top: 0px;
+    height: 255px;
+    width: 310px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #333;
+    transition: all 0.7s;
+    background-position: center;
+    background-size: cover;
+}
+
+.imagenes-impar{
+    float: right;
+    padding-top: 0px;
+    height: 255px;
+    width: 310px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #333;
+    transition: all 0.7s;
+    background-position: center;
+    background-size: cover;
+}
+
+.imagenes-impar:hover{
+    transform: scale(1.05);
+    transition: all 0.7s;
+}
+
+.imagenes-par:hover{
+    transform: scale(1.05);
+    transition: all 0.7s;
+}
+
+.btn{
+    color:  rgb(197, 195, 195); 
+}
+
+.navbar{
+    padding-top: 8px;
+    padding-left: 30px;
+    background-color: rgb(14, 19, 31) !important;
+}
+
+.navbar-brand{
+    color: rgb(197, 195, 195)!important;
+}
+
+.nav-link{
+    color: rgb(197, 195, 195)!important;
+}
+
+.contenedorEquipo{
+    width: 81%;
+    height: 16rem;
+    margin: 10px;
+    padding: 10px;
+    float: right;
+    background-color: rgba(133, 127, 116, 0.4);
+    border-radius: .25rem;
+}
+
+.contenedorServicios{
+    width: 81%;
+    height: 29rem;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+    background-color: rgba(133, 127, 116, 0.4);
+    border-radius: .25rem;
+}
+
+.contenedorDiseño{
+    width: 81%;
+    height: 11rem;
+    margin: 10px;
+    padding: 10px;
+    float: right;
+    background-color: rgba(133, 127, 116, 0.4);
+    border-radius: .25rem;
+}
+
+.contenedorIdentidad{
+    width: 81%;
+    height: 12rem;
+    margin: 10px;
+    padding: 10px;
+    float: right;
+    background-color: rgba(133, 127, 116, 0.4);
+    border-radius: .25rem;
+}
+
+.contenedorSustentabilidad{
+    width: 81%;
+    height: 12rem;
+    margin: 10px;
+    padding: 10px;
+    float: right;
+    background-color: rgba(133, 127, 116, 0.4);
+    border-radius: .25rem;
+}
+
+.contenedorContacto{
+    width: 45%;
+    height: 32.5rem;
+    margin: 5px;
+    padding: 10px;
+    float: right;
+    background-color: rgba(133, 127, 116, 0.4);
+    border-radius: .25rem;
+}
+
+.contenedorMapa{
+    width: 30%;
+    height: 32.5rem;
+    margin: 5px;
+    padding: 10px;
+    float: right;
+    background-color: rgba(133, 127, 116, 0.4);
+    border-radius: .25rem;
+}
+
+.Mapa{
+    float: right; 
+    height: 505px; 
+    width: 380px;
+    border-radius: .5rem;
+}
+
+.form-row{
+    padding-top: 0px;
+    width: 600px;
+    height: 90px;
+}
+
+.btn{
+    color:rgb(240, 240, 255); 
+}
+
+#exampleFormControlTextarea1{
+    width: 590px;
+}
